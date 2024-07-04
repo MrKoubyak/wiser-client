@@ -1,0 +1,29 @@
+{
+  "name": "wiser-client",
+  "version": "0.2.0",
+  "description": "Client for Schneider Electric (SE) Wiser Hub system",
+  "author": "Laurent LEFEVRE",
+  "license": "Apache-2.0",
+  "keywords": [
+    "wiser",
+    "Schneider Electric"
+  ],
+  "homepage": "https://github.com/MrKoubyak/Wiser-Client",
+  "main": "./src/Console.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "@typescript-eslint/eslint-plugin": "^7.15.0",
+    "@typescript-eslint/parser": "^7.15.0",
+    "eslint": "^8.57.0",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "bonjour-service": "^1.2.1",
+    "commander": "^12.1.0"
+  }
+}
